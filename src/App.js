@@ -4,6 +4,7 @@ import DisplayNames from './DisplayNames';
 import Toggle from './Toggle';
 import TwoWayDataBinding from './TwoWayDataBinding';
 import DisableAButton from './DisableAButton';
+import Parent from './Parent';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
    {/* <DisplayNames/> */}
    {/* <Toggle/> */}
    {/* <TwoWayDataBinding/> */}
-   <DisableAButton/>
+   {/* <DisableAButton/> */}
+   <Parent/>
     </div>
   );
 }

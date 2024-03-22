@@ -5,6 +5,9 @@ import Toggle from './Toggle';
 import TwoWayDataBinding from './TwoWayDataBinding';
 import DisableAButton from './DisableAButton';
 import Parent from './Parent';
+import Sum from './Sum';
+import Counter from './Counter';
+import Array from './Array';
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
    {/* <Toggle/> */}
    {/* <TwoWayDataBinding/> */}
    {/* <DisableAButton/> */}
-   <Parent/>
+   {/* <Parent/> */}
+   {/* <Sum/> */}
+   {/* <Counter/> */}
+   <Array/>
     </div>
   );
 }

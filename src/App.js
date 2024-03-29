@@ -8,6 +8,13 @@ import Parent from './Parent';
 import Sum from './Sum';
 import Counter from './Counter';
 import Array from './Array';
+import Form from './Form';
+import StudentInfo from './StudentInfo';
+import Student from './Student'
+import { Children } from 'react';
+import Child2 from './Child2';
+import Todo from './Todo';
+import Code from './Code1';
 
 function App() {
   return (
@@ -19,7 +26,13 @@ function App() {
    {/* <Parent/> */}
    {/* <Sum/> */}
    {/* <Counter/> */}
-   <Array/>
+   {/* <Array/> */}
+   {/* <Form/> */}
+   {/* <StudentInfo name="Sanjay" usn="9"/>
+   <Student name="Vinay" usn="19"/> */}
+   {/* <Child2/>
+   <Todo/> */}
+   <Code/>
     </div>
   );
 }
